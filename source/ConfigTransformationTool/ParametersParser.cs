@@ -91,7 +91,7 @@ namespace OutcoldSolutions.ConfigTransformationTool
                     if (nextIndex < source.Length)
                     {
                         var nextChar = source[nextIndex];
-                        if (nextChar == '"' || nextChar == '\\')
+                        if (nextChar == '"' || nextChar == '\\' || nextChar == ';')
                         {
                             index++;
                         }
